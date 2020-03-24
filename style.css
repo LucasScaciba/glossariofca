@@ -11,7 +11,7 @@ p{font-size: 1.3em;}
 ul{margin: 0; padding: 0; list-style-type: none; width: 100%; display: inline-block; text-align: center;}
 li{display: inline-block; text-align: left}
 
-.banner-hero{width: 100%; display: inline-block; text-align: center;}
+.banner-hero{width: 100%; display: inline-block; text-align: center; background-color: #fdfdfd;}
 .banner-hero div{width: 70%; display: inline-block;text-align: left; max-width: 1280px;}
 .banner-hero div ul{width: 100%; list-style: none; padding: 100px 0; display: inline-block; text-align: left;}
 .banner-hero div ul li{display: inline-block; list-style: none; text-align: left;}
@@ -34,4 +34,6 @@ li{display: inline-block; text-align: left}
 
 @media screen and (min-width: 0px) and (max-width: 680px) {
 .banner-hero div, .list-itens div, .titleh3 h3, .card{width: 90%;}
+h1{font-size: 3em; font-weight: 700;}
+.banner-hero div ul{padding: 50px 0;}
 }
