@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0;}
+body{font-family: 'Rubik', sans-serif;}
+
+
+
+h1{font-size: 5em; font-weight: 700;}
+h3{margin:0; color: #ccc; text-transform: uppercase; font-weight: normal; font-size: 2em; font-weight: 300;}
+p{font-size: 1.3em;}
+
+
+ul{margin: 0; padding: 0; list-style-type: none; width: 100%; display: inline-block; text-align: center;}
+li{display: inline-block; text-align: left}
+
+.banner-hero{width: 100%; display: inline-block; text-align: center;}
+.banner-hero div{width: 70%; display: inline-block;text-align: left; max-width: 1280px;}
+.banner-hero div ul{width: 100%; list-style: none; padding: 100px 0; display: inline-block; text-align: left;}
+.banner-hero div ul li{display: inline-block; list-style: none; text-align: left;}
+.banner-hero div ul li h1{}
+.banner-hero div ul li p{}
+
+.list-itens {width: 100%; display: inline-block; text-align: center;}
+.list-itens div{width: 70%; display: inline-block;}
+
+.titleh3{width: 100%; display: inline-block; text-align: center;}
+.titleh3 h3{margin-bottom: 20px; margin-top: 60px; width: 70%; display: inline-block; text-align: left; max-width: 1280px;}
+
+.card{border: 1px solid #eaeaea; box-shadow: 0 0 10px #eaeaea; display: inline-block; width: 70%; max-width: 1280px; border-radius: 4px; margin: 0 0 10px 0;}
+
+.card article{padding: 30px;}
+.card article h6{font-size: 1.5em; font-weight: 700; color:#333;}
+.card article p{font-size: 1em; color: #828282; padding:10px 0 5px 0; line-height: 1.5em;}
+.card article span{font-size: 0.8em;}
+.card article span i{font-weight: 700;}
+
+@media screen and (min-width: 0px) and (max-width: 680px) {
+.banner-hero div, .list-itens div, .titleh3 h3, .card{width: 90%;}
+}
